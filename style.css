@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+     font-size: 30pt;
+     font-weight: normal;
+}
+
+@media screen and (max-width:400px){
+    main{
+    width: 100%;
+}
+.my-foto{
+width:100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 15px 0px 0px 5px;
+}
+
+.my-info{
+width: 250px;
+    height: 250px;
+    margin: 0px auto 20px 5px;
+}
+.contact-with-my img{
+    width: 30px;
+    margin: 0px 0px;
+}
+}
+
+@media screen and (min-width:400px) and (max-width:768px){
+    main{
+    width: 100%;
+}
+.my-foto{
+width:150px;
+    height: 150px;
+    border-radius: 150px;
+    margin: 25px 0px 0px 10px;
+}
+
+.my-info{
+width: 300px;
+    height: 300px;
+    margin: 0px auto 20px 10px;
+}
+.contact-with-my img{
+    width: 30px;
+    margin: 0px 5px;
+}
+}
+
+
+@media screen and (min-width:768px){
+    main{
+ width:1000px;
+     height: 700px;
+     margin: 100px;
+    }
+.my-foto{
+    width:200px;
+    height: 200px;
+    border-radius: 250px;
+    margin: 50px auto;
+    float: left;
+}
+
+.my-info{
+width: 500px;
+    height: 500px;
+    margin: 50px auto 0px 50px;
+
+}
+.contact-with-my img{
+    width: 30px;
+    margin: 0px 5px;
+}
+}
+
+
+main{   
+    border:1px solid white;    
+}
+
+.my-foto{    
+    border: 1px solid black;    
+    }
+
+
+.my-info{    
+    border:1px solid white;
+    text-align: left;
+    float:left;
+    
+}
+
+.contact-with-my{
+    width: 100%;
+    height: auto;
+    border:1px solid white;
+}
+
+.contact-with-my img{
+       filter: grayscale(90%);
+}
+
+.contact-with-my img:hover{
+      filter: grayscale(0%);
+}
